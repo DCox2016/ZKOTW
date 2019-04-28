@@ -1,11 +1,9 @@
-<div id="signUpsignin">
-<form align="right">
-  Username:
+<form class="signIn">
+  <label for="username">Username:</label>
   <input type="text" name="username">
-  Password:
-  <input type="text" name="password">&nbsp;
-  <a routerLink="/signin">Sign in</a>&nbsp;
-  <a routerLink="/signup">Sign up</a>&nbsp;
-  <router-outlet></router-outlet>
+  <label for="password">Password:</label> 
+  <input type="text" name="password">
+  <a routerLink="/signin"><label for="signin">Sign in</label></a>
+  <a routerLink="/signup"><label for="signup">Sign up</label></a>
 </form>
-</div>
+
